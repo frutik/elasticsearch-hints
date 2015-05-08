@@ -9,12 +9,10 @@
 
 ## Java tuning
 
-- [http://jprante.github.io/2012/11/28/Elasticsearch-Java-Virtual-Machine-settings-explained.html](Elasticsearch Java Virtual Machine settings explained)
-
-- [http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/](Tuning Garbage Collection for Mission-Critical Java Applications)
-
-- [http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All](G1: One Garbage Collector To Rule Them All)
-- [http://blog.thetaphi.de/](Use Lucene’s MMapDirectory on 64bit platforms, please!)
+- [Elasticsearch Java Virtual Machine settings explained](http://jprante.github.io/2012/11/28/Elasticsearch-Java-Virtual-Machine-settings-explained.html)
+- [Tuning Garbage Collection for Mission-Critical Java Applications](http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/)
+- [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
+- [Use Lucene’s MMapDirectory on 64bit platforms, please!](http://blog.thetaphi.de/)
 
 
     In the following article we take a look at the state-of-the-art advanced GC algorithms and important tuning options and compare them for diverse real-world scenarios  
