@@ -14,41 +14,38 @@
 - [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
 - [Use Lucene’s MMapDirectory on 64bit platforms, please!](http://blog.thetaphi.de/)
 
-
-    In the following article we take a look at the state-of-the-art advanced GC algorithms and important tuning options and compare them for diverse real-world scenarios  
-
 ## Durability & reliability
 
-- [https://aphyr.com/posts/317-call-me-maybe-elasticsearch](Call me maybe: Elasticsearch)
+- [Call me maybe: Elasticsearch](https://aphyr.com/posts/317-call-me-maybe-elasticsearch)
 
    In this post, we’ll explore Elasticsearch’s behavior under various types of network failure.
 
-- [https://aphyr.com/posts/323-call-me-maybe-elasticsearch-1-5-0](Call me maybe: Elasticsearch 1.5.0)
+- [Call me maybe: Elasticsearch 1.5.0](https://aphyr.com/posts/323-call-me-maybe-elasticsearch-1-5-0)
 
    Data-loss scenarios
 
-- [https://blog.codecentric.de/en/2014/10/transactions-elasticsearch/](Transactions in Elasticsearch)
+- [Transactions in Elasticsearch](https://blog.codecentric.de/en/2014/10/transactions-elasticsearch/)
 
    How to achieve transactions in Elasticsearch?
 
 
 ## Performance
 
-- [http://blog.sematext.com/2013/07/08/elasticsearch-refresh-interval-vs-indexing-performance/](Elasticsearch Refresh Interval vs Indexing Performance)
+- [Elasticsearch Refresh Interval vs Indexing Performance](http://blog.sematext.com/2013/07/08/elasticsearch-refresh-interval-vs-indexing-performance/)
 
    Because refreshing is expensive, one way to improve indexing throughput is by increasing refresh_interval. Less refreshing means less load, and more resources can go to the indexing threads. How does all this translate into performance? Below is what our benchmarks revealed when we looked at it 
 
 ## Monitoring
 
-- [http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/](Top 10 Elasticsearch Metrics to Watch)
+- [Top 10 Elasticsearch Metrics to Watch](http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/)
 
    This should be especially helpful to those readers new to Elasticsearch, and also to experienced users who want a quick start into performance monitoring of Elasticsearch.
 
 ## Best practices
 
-- [https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/](Elasticsearch Indexing Performance Cheatsheet)
-- [https://www.found.no/foundation/crash-elasticsearch/](Six Ways to Crash Elasticsearch)
-- [https://www.elastic.co/blog/playing-http-tricks-nginx](Playing HTTP Tricks with Nginx)
+- [Elasticsearch Indexing Performance Cheatsheet](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
+- [Six Ways to Crash Elasticsearch](https://www.found.no/foundation/crash-elasticsearch/)
+- [Playing HTTP Tricks with Nginx](https://www.elastic.co/blog/playing-http-tricks-nginx)
 
 ## Books
 
