@@ -1,6 +1,6 @@
 # elasticsearch-hints
 
-These links are outcome of my 5 months tuning of our ES cluster. To be continued...
+These links are outcome of 5 months tuning our ES cluster. To be continued...
 
 ## Internals
 
