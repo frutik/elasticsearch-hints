@@ -19,6 +19,11 @@
 
    Data-loss scenarios
 
+- [https://blog.codecentric.de/en/2014/10/transactions-elasticsearch/](Transactions in Elasticsearch)
+
+   How to achieve transactions in Elasticsearch?
+
+
 ## Performance
 
 - [http://blog.sematext.com/2013/07/08/elasticsearch-refresh-interval-vs-indexing-performance/](Elasticsearch Refresh Interval vs Indexing Performance)
