@@ -15,6 +15,10 @@
 
 ## Durability & reliability
 
+- [https://aphyr.com/posts/317-call-me-maybe-elasticsearch](Call me maybe: Elasticsearch)
+
+   In this post, we’ll explore Elasticsearch’s behavior under various types of network failure.
+
 - [https://aphyr.com/posts/323-call-me-maybe-elasticsearch-1-5-0](Call me maybe: Elasticsearch 1.5.0)
 
    Data-loss scenarios
