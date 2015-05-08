@@ -19,6 +19,12 @@
 
    Data-loss scenarios
 
+## Performance
+
+- [http://blog.sematext.com/2013/07/08/elasticsearch-refresh-interval-vs-indexing-performance/](Elasticsearch Refresh Interval vs Indexing Performance)
+
+   Because refreshing is expensive, one way to improve indexing throughput is by increasing refresh_interval. Less refreshing means less load, and more resources can go to the indexing threads. How does all this translate into performance? Below is what our benchmarks revealed when we looked at it 
+
 ## Monitoring
 
 - [http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/](Top 10 Elasticsearch Metrics to Watch)
