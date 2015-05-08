@@ -51,6 +51,6 @@
 
 *In order of my personal preferences*
 
-- [http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790](Mastering Elasticsearch - Second Edition)
-- [http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/](ElasticSearch Cookbook Second Edition)
-- [http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/](Elasticsearch Server Second Edition) 
+- [Mastering Elasticsearch - Second Edition](http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790)
+- [ElasticSearch Cookbook Second Edition](http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/)
+- [Elasticsearch Server Second Edition](http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/) 
