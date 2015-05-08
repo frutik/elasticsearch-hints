@@ -2,7 +2,7 @@
 
 ## Internals
 
-- [https://www.found.no/foundation/dive-into-elasticsearch-storage/](A Dive into the Elasticsearch Storage)
+- [A Dive into the Elasticsearch Storage](https://www.found.no/foundation/dive-into-elasticsearch-storage/)
   
    In this article we'll investigate the files written to the data directory by various parts of Elasticsearch. We will look at node, index and shard level files and give a short explanation of their contents in order to establish an understanding of the data written to disk by Elasticsearch.
 
