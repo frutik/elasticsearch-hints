@@ -9,6 +9,10 @@
 
 ## Java tuning
 
+- [http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/](Tuning Garbage Collection for Mission-Critical Java Applications)
+
+    In the following article we take a look at the state-of-the-art advanced GC algorithms and important tuning options and compare them for diverse real-world scenarios  
+
 ## Durability & reliability
 
 - [https://aphyr.com/posts/323-call-me-maybe-elasticsearch-1-5-0](Call me maybe: Elasticsearch 1.5.0)
@@ -24,3 +28,6 @@
 ## Best practices
 
 ## Books
+
+- [http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790](Mastering Elasticsearch - Second Edition)
+- [http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/](ElasticSearch Cookbook Second Edition)
