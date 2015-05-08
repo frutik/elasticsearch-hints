@@ -1,5 +1,7 @@
 # elasticsearch-hints
 
+This is outcome of 5 months search when tuning our ES cluster. To be continue...
+
 ## Internals
 
 - [A Dive into the Elasticsearch Storage](https://www.found.no/foundation/dive-into-elasticsearch-storage/)
