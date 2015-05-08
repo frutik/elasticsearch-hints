@@ -9,7 +9,13 @@
 
 ## Java tuning
 
+- [http://jprante.github.io/2012/11/28/Elasticsearch-Java-Virtual-Machine-settings-explained.html](Elasticsearch Java Virtual Machine settings explained)
+
 - [http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/](Tuning Garbage Collection for Mission-Critical Java Applications)
+
+- [http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All](G1: One Garbage Collector To Rule Them All)
+- [http://blog.thetaphi.de/](Use Lucene’s MMapDirectory on 64bit platforms, please!)
+
 
     In the following article we take a look at the state-of-the-art advanced GC algorithms and important tuning options and compare them for diverse real-world scenarios  
 
@@ -41,6 +47,10 @@
    This should be especially helpful to those readers new to Elasticsearch, and also to experienced users who want a quick start into performance monitoring of Elasticsearch.
 
 ## Best practices
+
+- [https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/](Elasticsearch Indexing Performance Cheatsheet)
+- [https://www.found.no/foundation/crash-elasticsearch/](Six Ways to Crash Elasticsearch)
+- [https://www.elastic.co/blog/playing-http-tricks-nginx](Playing HTTP Tricks with Nginx)
 
 ## Books
 
