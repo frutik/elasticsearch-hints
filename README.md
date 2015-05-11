@@ -48,7 +48,8 @@ These links are outcome of 5 months tuning our ES cluster. To be continued...
 - [Elasticsearch Indexing Performance Cheatsheet](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
 - [Six Ways to Crash Elasticsearch](https://www.found.no/foundation/crash-elasticsearch/)
 - [Playing HTTP Tricks with Nginx](https://www.elastic.co/blog/playing-http-tricks-nginx)
-- [Elasticsearch Tuning Plan](https://gist.github.com/mrflip/5366376)
+- [Elasticsearch Tuning Plan](https://gist.github.com/mrflip/5366376)\
+
    Nice check list
 
 ## Books
