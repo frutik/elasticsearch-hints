@@ -52,6 +52,10 @@ These links are outcome of 5 months tuning our ES cluster. To be continued...
 
    Nice check list
 
+- [Choosing a fast unique identifier (UUID) for Lucene](http://blog.mikemccandless.com/2014/05/choosing-fast-unique-identifier-uuid.html)
+  
+   If have your own natural ID for each document, try to pick an ID that is friendly to Lucene. 
+
 ## Books
 
 *In order of my personal preferences*
