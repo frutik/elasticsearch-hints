@@ -43,6 +43,10 @@ These links are outcome of 5 months tuning our ES cluster. To be continued...
 
    This should be especially helpful to those readers new to Elasticsearch, and also to experienced users who want a quick start into performance monitoring of Elasticsearch.
 
+- [How to monitor Elasticsearch performance](https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/)
+
+   Very good article from Datadog
+
 ## Best practices
 
 - [Elasticsearch Indexing Performance Cheatsheet](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
@@ -60,6 +64,7 @@ These links are outcome of 5 months tuning our ES cluster. To be continued...
 
 *In order of my personal preferences*
 
+- [Relevant Search](https://www.manning.com/books/relevant-search) - best book available on the markert
 - [Mastering Elasticsearch - Second Edition](http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790)
 - [ElasticSearch Cookbook Second Edition](http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/)
 - [Elasticsearch Server Second Edition](http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/) 
