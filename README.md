@@ -16,6 +16,7 @@ These links are outcome of 5 months tuning our ES cluster. To be continued...
 - [G1: One Garbage Collector To Rule Them All](http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All)
 - [Use Lucene’s MMapDirectory on 64bit platforms, please!](http://blog.thetaphi.de/)
 - [Black Magic cookbook](http://product.hubspot.com/blog/g1gc-tuning-your-hbase-cluster)
+- [G1GC Fundamentals: Lessons from Taming Garbage Collection](http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection)
 
 ## Durability & reliability
 
