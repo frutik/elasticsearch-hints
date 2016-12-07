@@ -48,6 +48,10 @@ These links are outcome of 5 months tuning our ES cluster. To be continued...
 - [How to monitor Elasticsearch performance](https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/)
 
    Very good article from Datadog
+   
+- [What should you monitor](https://support.lucidworks.com/hc/en-us/articles/201298247-What-should-you-monitor)
+   
+   Good checklist (with the explanations)
 
 ## Best practices
 
