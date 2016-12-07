@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Elasticsearch-hints by frutik</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Elasticsearch-hints</h1>
+        <p>Some useful links regarding Elasticsearch</p>
+
+        <p class="view"><a href="https://github.com/frutik/elasticsearch-hints">View the Project on GitHub <small>frutik/elasticsearch-hints</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/frutik/elasticsearch-hints/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/frutik/elasticsearch-hints/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/frutik/elasticsearch-hints">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="elasticsearch-hints" class="anchor" href="#elasticsearch-hints" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>elasticsearch-hints</h1>
+
+<p>These links are outcome of 5 months tuning our ES cluster. To be continued...</p>
+
+<h2>
+<a id="internals" class="anchor" href="#internals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Internals</h2>
+
+<ul>
+<li>
+<p><a href="https://www.found.no/foundation/dive-into-elasticsearch-storage/">A Dive into the Elasticsearch Storage</a></p>
+
+<p>In this article we'll investigate the files written to the data directory by various parts of Elasticsearch. We will look at node, index and shard level files and give a short explanation of their contents in order to establish an understanding of the data written to disk by Elasticsearch.</p>
+</li>
+</ul>
+
+<h2>
+<a id="java-tuning" class="anchor" href="#java-tuning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java tuning</h2>
+
+<ul>
+<li><a href="http://jprante.github.io/2012/11/28/Elasticsearch-Java-Virtual-Machine-settings-explained.html">Elasticsearch Java Virtual Machine settings explained</a></li>
+<li><a href="http://blog.mgm-tp.com/2013/03/garbage-collection-tuning/">Tuning Garbage Collection for Mission-Critical Java Applications</a></li>
+<li><a href="http://www.infoq.com/articles/G1-One-Garbage-Collector-To-Rule-Them-All">G1: One Garbage Collector To Rule Them All</a></li>
+<li><a href="http://blog.thetaphi.de/">Use Lucene’s MMapDirectory on 64bit platforms, please!</a></li>
+<li><a href="http://product.hubspot.com/blog/g1gc-tuning-your-hbase-cluster">Black Magic cookbook</a></li>
+<li><a href="http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection">G1GC Fundamentals: Lessons from Taming Garbage Collection</a></li>
+</ul>
+
+<h2>
+<a id="durability--reliability" class="anchor" href="#durability--reliability" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Durability &amp; reliability</h2>
+
+<ul>
+<li>
+<p><a href="https://aphyr.com/posts/317-call-me-maybe-elasticsearch">Call me maybe: Elasticsearch</a></p>
+
+<p>In this post, we’ll explore Elasticsearch’s behavior under various types of network failure.</p>
+</li>
+<li>
+<p><a href="https://aphyr.com/posts/323-call-me-maybe-elasticsearch-1-5-0">Call me maybe: Elasticsearch 1.5.0</a></p>
+
+<p>Data-loss scenarios</p>
+</li>
+<li>
+<p><a href="https://blog.codecentric.de/en/2014/10/transactions-elasticsearch/">Transactions in Elasticsearch</a></p>
+
+<p>How to achieve transactions in Elasticsearch?</p>
+</li>
+</ul>
+
+<h2>
+<a id="performance" class="anchor" href="#performance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Performance</h2>
+
+<ul>
+<li>
+<p><a href="http://blog.sematext.com/2013/07/08/elasticsearch-refresh-interval-vs-indexing-performance/">Elasticsearch Refresh Interval vs Indexing Performance</a></p>
+
+<p>Because refreshing is expensive, one way to improve indexing throughput is by increasing refresh_interval. Less refreshing means less load, and more resources can go to the indexing threads. How does all this translate into performance? Below is what our benchmarks revealed when we looked at it </p>
+</li>
+</ul>
+
+<h2>
+<a id="monitoring" class="anchor" href="#monitoring" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Monitoring</h2>
+
+<ul>
+<li>
+<p><a href="http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/">Top 10 Elasticsearch Metrics to Watch</a></p>
+
+<p>This should be especially helpful to those readers new to Elasticsearch, and also to experienced users who want a quick start into performance monitoring of Elasticsearch.</p>
+</li>
+<li>
+<p><a href="https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/">How to monitor Elasticsearch performance</a></p>
+
+<p>Very good article from Datadog</p>
+</li>
+<li>
+<p><a href="https://support.lucidworks.com/hc/en-us/articles/201298247-What-should-you-monitor">What should you monitor</a></p>
+
+<p>Good checklist (with the explanations)</p>
+</li>
+</ul>
+
+<h2>
+<a id="best-practices" class="anchor" href="#best-practices" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Best practices</h2>
+
+<ul>
+<li><a href="https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/">Elasticsearch Indexing Performance Cheatsheet</a></li>
+<li><a href="https://www.found.no/foundation/crash-elasticsearch/">Six Ways to Crash Elasticsearch</a></li>
+<li><a href="https://www.elastic.co/blog/playing-http-tricks-nginx">Playing HTTP Tricks with Nginx</a></li>
+<li>
+<p><a href="https://gist.github.com/mrflip/5366376">Elasticsearch Tuning Plan</a></p>
+
+<p>Nice check list</p>
+</li>
+<li>
+<p><a href="http://blog.mikemccandless.com/2014/05/choosing-fast-unique-identifier-uuid.html">Choosing a fast unique identifier (UUID) for Lucene</a></p>
+
+<p>If have your own natural ID for each document, try to pick an ID that is friendly to Lucene. </p>
+</li>
+</ul>
+
+<h2>
+<a id="books" class="anchor" href="#books" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Books</h2>
+
+<p><em>In order of my personal preferences</em></p>
+
+<ul>
+<li>
+<a href="https://www.manning.com/books/relevant-search">Relevant Search</a> - best book available on the markert</li>
+<li><a href="http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790">Mastering Elasticsearch - Second Edition</a></li>
+<li><a href="http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/">ElasticSearch Cookbook Second Edition</a></li>
+<li>
+<a href="http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/">Elasticsearch Server Second Edition</a> </li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/frutik">frutik</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
