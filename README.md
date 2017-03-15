@@ -39,6 +39,10 @@ These links are outcome of 2+ years of tuning/running our ES cluster. To be cont
 
    Because refreshing is expensive, one way to improve indexing throughput is by increasing refresh_interval. Less refreshing means less load, and more resources can go to the indexing threads. How does all this translate into performance? Below is what our benchmarks revealed when we looked at it 
 
+- [A-Z Guide on Scaling Elasticsearch](https://qbox.io/blog/a-z-guide-on-scaling-elasticsearch)
+
+   In this article we will discuss the system settings in detail. This will guide you on the parameters and values to be considered in various levels including the operating system (we are considering the Unix-based systems here). Focus will also be given to the memory settings in Elasticsearch, and we will look even deeper into the heap memory management and fine tuning of the same.
+
 ## Monitoring
 
 - [Top 10 Elasticsearch Metrics to Watch](http://blog.sematext.com/2015/05/05/top-10-elasticsearch-metrics-to-watch/)
