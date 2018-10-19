@@ -17,6 +17,19 @@ These links are outcome of 4+ years of tuning/running our ES cluster. To be cont
 - [Use Lucene’s MMapDirectory on 64bit platforms, please!](http://blog.thetaphi.de/)
 - [Black Magic cookbook](http://product.hubspot.com/blog/g1gc-tuning-your-hbase-cluster)
 - [G1GC Fundamentals: Lessons from Taming Garbage Collection](http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection)
+- [JVM Garbage Collector settings
+investigation](https://tigase.tech/attachments/download/4808/GC-result.pdf)
+
+    Comparison of jvm gc. Fantastic job!
+
+
+How to start using G1
+```
+#ES_JAVA_OPTS=""
+ES_JAVA_OPTS="-XX:-UseParNewGC -XX:-UseConcMarkSweepGC -XX:+UseG1GC"
+
+```
+
 
 ## Durability & reliability
 
@@ -78,3 +91,8 @@ These links are outcome of 4+ years of tuning/running our ES cluster. To be cont
 - [Mastering Elasticsearch - Second Edition](http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790)
 - [ElasticSearch Cookbook Second Edition](http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/)
 - [Elasticsearch Server Second Edition](http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/) 
+
+## Video
+
+- ["Surviving Elasticsearch"](https://www.youtube.com/watch?v=gT-L6r37SPA)
+- https://berlinbuzzwords.de/18/session/elasticsearch-index-management-paas-style-logging-system
