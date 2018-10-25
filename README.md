@@ -88,6 +88,7 @@ ES_JAVA_OPTS="-XX:-UseParNewGC -XX:-UseConcMarkSweepGC -XX:+UseG1GC"
 *In order of my personal preferences*
 
 - [Relevant Search](https://www.manning.com/books/relevant-search) - best book available on the markert
+- [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 - [Mastering Elasticsearch - Second Edition](http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790)
 - [ElasticSearch Cookbook Second Edition](http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/)
 - [Elasticsearch Server Second Edition](http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/) 
@@ -96,3 +97,10 @@ ES_JAVA_OPTS="-XX:-UseParNewGC -XX:-UseConcMarkSweepGC -XX:+UseG1GC"
 
 - ["Surviving Elasticsearch"](https://www.youtube.com/watch?v=gT-L6r37SPA)
 - https://berlinbuzzwords.de/18/session/elasticsearch-index-management-paas-style-logging-system
+
+## Reading
+
+- https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e
+- https://www.elastic.co/blog/modeling-data-for-fast-aggregations
+- https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867
+
