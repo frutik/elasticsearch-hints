@@ -1,6 +1,6 @@
 # elasticsearch-hints
 
-These links are outcome of 2+ years of tuning/running our ES cluster. To be continued...
+These links are outcome of 4+ years of tuning/running our ES clusters (on premise and in a cloud). To be continued...
 
 ## Internals
 
@@ -17,6 +17,19 @@ These links are outcome of 2+ years of tuning/running our ES cluster. To be cont
 - [Use Lucene’s MMapDirectory on 64bit platforms, please!](http://blog.thetaphi.de/)
 - [Black Magic cookbook](http://product.hubspot.com/blog/g1gc-tuning-your-hbase-cluster)
 - [G1GC Fundamentals: Lessons from Taming Garbage Collection](http://product.hubspot.com/blog/g1gc-fundamentals-lessons-from-taming-garbage-collection)
+- [JVM Garbage Collector settings
+investigation](https://tigase.tech/attachments/download/4808/GC-result.pdf)
+
+    Comparison of jvm gc. Fantastic job!
+
+
+How to start using G1
+```
+#ES_JAVA_OPTS=""
+ES_JAVA_OPTS="-XX:-UseParNewGC -XX:-UseConcMarkSweepGC -XX:+UseG1GC"
+
+```
+
 
 ## Durability & reliability
 
@@ -38,6 +51,10 @@ These links are outcome of 2+ years of tuning/running our ES cluster. To be cont
 - [Elasticsearch Refresh Interval vs Indexing Performance](http://blog.sematext.com/2013/07/08/elasticsearch-refresh-interval-vs-indexing-performance/)
 
    Because refreshing is expensive, one way to improve indexing throughput is by increasing refresh_interval. Less refreshing means less load, and more resources can go to the indexing threads. How does all this translate into performance? Below is what our benchmarks revealed when we looked at it 
+
+- [A-Z Guide on Scaling Elasticsearch](https://qbox.io/blog/a-z-guide-on-scaling-elasticsearch)
+
+   In this article we will discuss the system settings in detail. This will guide you on the parameters and values to be considered in various levels including the operating system (we are considering the Unix-based systems here). Focus will also be given to the memory settings in Elasticsearch, and we will look even deeper into the heap memory management and fine tuning of the same.
 
 ## Monitoring
 
@@ -71,6 +88,19 @@ These links are outcome of 2+ years of tuning/running our ES cluster. To be cont
 *In order of my personal preferences*
 
 - [Relevant Search](https://www.manning.com/books/relevant-search) - best book available on the markert
+- [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 - [Mastering Elasticsearch - Second Edition](http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790)
 - [ElasticSearch Cookbook Second Edition](http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/)
 - [Elasticsearch Server Second Edition](http://www.amazon.co.uk/Elasticsearch-Server-Second-Edition-Rogozi/dp/1783980524/) 
+
+## Video
+
+- ["Surviving Elasticsearch"](https://www.youtube.com/watch?v=gT-L6r37SPA)
+- https://berlinbuzzwords.de/18/session/elasticsearch-index-management-paas-style-logging-system
+
+## Reading
+
+- https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e
+- https://www.elastic.co/blog/modeling-data-for-fast-aggregations
+- https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867
+
