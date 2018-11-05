@@ -25,6 +25,10 @@ investigation](https://tigase.tech/attachments/download/4808/GC-result.pdf)
 - [Garbage Collection Settings for Elasticsearch Master Nodes](https://dzone.com/articles/garbage-collection-settings-for-elasticsearch-mast)
     
     Fine tunine your garbage collector
+    
+- [Understanding G1 GC Log Format](https://dzone.com/articles/understanding-g1-gc-log-format)
+
+    To tune and troubleshoot G1 GC enabled JVMs, one must have a proper understanding of G1 GC log format. This article walks through key things that one should know about the G1 GC log format.
 
 How to start using G1
 ```
