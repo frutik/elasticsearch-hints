@@ -21,7 +21,10 @@ These links are outcome of 4+ years of tuning/running our ES clusters (on premis
 investigation](https://tigase.tech/attachments/download/4808/GC-result.pdf)
 
     Comparison of jvm gc. Fantastic job!
-
+    
+- [Garbage Collection Settings for Elasticsearch Master Nodes](https://dzone.com/articles/garbage-collection-settings-for-elasticsearch-mast)
+    
+    Fine tunine your garbage collector
 
 How to start using G1
 ```
