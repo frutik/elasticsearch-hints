@@ -1,6 +1,9 @@
 # elasticsearch-hints
 
-These links are outcome of 4+ years of tuning/running our ES clusters (on premise and in a cloud). To be continued...
+These links are outcome of 4+ years of tuning/running our ES clusters (on premise and in a cloud).
+
+> This list is not in the active development. Partially merged into https://github.com/dzharii/awesome-elasticsearch
+
 
 ## Internals
 
