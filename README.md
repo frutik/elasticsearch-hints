@@ -97,7 +97,7 @@ ES_JAVA_OPTS="-XX:-UseParNewGC -XX:-UseConcMarkSweepGC -XX:+UseG1GC"
 
 *In order of my personal preferences*
 
-- [Relevant Search](https://www.manning.com/books/relevant-search) - best book available on the markert
+- [Relevant Search](https://www.manning.com/books/relevant-search) - best book available on the market
 - [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 - [Mastering Elasticsearch - Second Edition](http://www.amazon.co.uk/Mastering-Elasticsearch-Second-Rafal-Kuc/dp/1783553790)
 - [ElasticSearch Cookbook Second Edition](http://www.amazon.co.uk/ElasticSearch-Cookbook-Second-Edition-Alberto/)
